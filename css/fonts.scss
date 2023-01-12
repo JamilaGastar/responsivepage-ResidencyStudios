@@ -1,0 +1,55 @@
+$grey: #ccc;
+$ocean: #6BBBBC;
+
+@font-face {
+    font-family: 'helvetica_now_textbold';
+    src: url('fonts/helveticanowtext-bold-webfont.woff2') format('woff2'),
+         url('fonts/helveticanowtext-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'helvetica_now_textregular';
+    src: url('./fonts/helveticanowtext-regular-webfont.woff2') format('woff2'),
+         url('fonts/helveticanowtext-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Hestteroid_Brilliant';
+    src: url('fonts/Hestteroid-Brilliant.woff2') format('woff2'),
+         url('fonts/Hestteroid-Brilliant.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.script{
+    font-family: 'Hestteroid_Brilliant';
+    color: $ocean;
+    border: 1px sold $ocean;
+    font-size: 31px
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'helvetica_now_textbold';
+}
+
+p {
+    font-family: 'helvetica_now_textregular';
+    font-size: 14px;
+    line-height: 18px;
+}
+
+h2{
+    font-size: 63px;
+}
+
+h3{
+    font-size: 23px;
+}

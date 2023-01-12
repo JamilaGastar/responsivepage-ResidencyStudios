@@ -1,8 +1,52 @@
+@font-face {
+  font-family: 'helvetica_now_textbold';
+  src: url("fonts/helveticanowtext-bold-webfont.woff2") format("woff2"), url("fonts/helveticanowtext-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'helvetica_now_textregular';
+  src: url("./fonts/helveticanowtext-regular-webfont.woff2") format("woff2"), url("fonts/helveticanowtext-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Hestteroid_Brilliant';
+  src: url("fonts/Hestteroid-Brilliant.woff2") format("woff2"), url("fonts/Hestteroid-Brilliant.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+.script {
+  font-family: 'Hestteroid_Brilliant';
+  color: #6BBBBC;
+  border: 1px sold #6BBBBC;
+  font-size: 31px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'helvetica_now_textbold'; }
+
+p {
+  font-family: 'helvetica_now_textregular';
+  font-size: 14px;
+  line-height: 18px; }
+
+h2 {
+  font-size: 63px; }
+
+h3 {
+  font-size: 23px; }
+
 body, html, * {
   margin: 0px; }
 
+img {
+  width: 100%;
+  height: auto; }
+
 a {
   color: #000; }
+
+.clearfix {
+  width: 100%;
+  float: left;
+  clear: both; }
 
 .container {
   padding: 0 40px;
@@ -68,23 +112,6 @@ a {
 .padding-bottom-50 {
   padding-bottom: 50px; }
 
-@media print {
-  .col-lg-12,
-  .col-lg-10,
-  .col-lg-11,
-  .col-lg-9,
-  .col-lg-8,
-  .col-lg-7,
-  .col-lg-6,
-  .col-lg-5,
-  .col-lg-4,
-  .col-lg-3,
-  .col-lg-2,
-  .col-lg-1 {
-    padding: 0 15px;
-    box-sizing: border-box;
-    float: left;
-    border: 1px solid red; } }
 @media (max-width: 767px) {
   .container {
     padding: 0 10px; }
@@ -97,6 +124,8 @@ a {
 
   .col-sm-6 {
     width: 50%; }
+    .col-sm-6:nth-child(odd) {
+      clear: both; }
 
   .col-sm-4 {
     width: 33.33%; }
@@ -121,10 +150,10 @@ a {
       margin-right: 40px; }
       #header ul li a {
         text-decoration: none;
-        font-family: 'Helvetica Now Text';
+        font-family: 'helvetica_now_textbold';
         font-style: normal;
         font-weight: 700;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 24px; }
 
 #footer {
@@ -146,25 +175,51 @@ a {
 
 body {
   font-family: Arial;
-  background: #eee; }
+  background: #eee;
+  font-family: 'helvetica_now_textbold'; }
 
 p {
   margin: 0px 0px 15px; }
 
 .button {
-  background: #ccc;
+  background: #6BBBBC;
   color: white;
   text-decoration: none;
-  width: 170px;
   text-align: center;
   font-size: 16px;
   line-height: 24px;
-  padding: 8px 0px;
+  padding: 8px 20px;
   border-radius: 20px;
-  border: 2px solid;
-  transition: all 0.5s ease-in-out; }
+  border: 2px solid #6BBBBC;
+  transition: all 0.5s ease-in-out;
+  display: inline-block; }
   .button:hover {
     background-color: transparent;
-    color: teal; }
+    color: #6BBBBC; }
+  .button-stroke {
+    background: transparent;
+    border-color: #000;
+    color: #000; }
+    .button-stroke:hover {
+      background-color: #000;
+      border-color: #000;
+      color: #fff; }
+
+.surf_and_more {
+  padding: 30px 0px 30px; }
+  .surf_and_more a {
+    margin: 0px 10px 0px 0px; }
+
+.whats_new {
+  padding: 80px 0px 150px; }
+  .whats_new h2 {
+    padding: 0px 0px 30px; }
+  .whats_new img {
+    padding: 20px 0px; }
+  .whats_new p {
+    padding: 10px; }
+    .whats_new p a {
+      color: #6BBBBC;
+      text-decoration: underline; }
 
 /*# sourceMappingURL=style.css.map */
