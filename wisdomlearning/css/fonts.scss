@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital@0;1&family=Lato:ital@0;1&display=swap');
+
+$Aqua: #48C1BB;
+$Grey: #9E9E9E;
+$DarkGrey: #232B33;
+$LightGrey: #F7F7F7;
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Caladea', serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+p, button, li {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFF;
+}
+
+
+h1 {
+    color: #FFF;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 38px;
+    margin: 0px auto;
+}
+
+::placeholder {
+    color: #FFF;
+}
+
+

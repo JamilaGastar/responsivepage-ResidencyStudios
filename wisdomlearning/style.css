@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Caladea:ital@0;1&family=Lato:ital@0;1&display=swap");
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Caladea', serif;
+  font-style: normal;
+  font-weight: normal; }
+
+p, button, li {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #FFF; }
+
+h1 {
+  color: #FFF;
+  font-size: 50px; }
+
+h2 {
+  font-size: 38px;
+  margin: 0px auto; }
+
+::placeholder {
+  color: #FFF; }
+
+body, html, * {
+  margin: 0px; }
+
+img {
+  width: 100%; }
+
+a {
+  color: #FFF; }
+
+.container {
+  padding: 0 40px;
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background: transparent; }
+
+.col-lg-12,
+.col-lg-10,
+.col-lg-11,
+.col-lg-9,
+.col-lg-8,
+.col-lg-7,
+.col-lg-6,
+.col-lg-5,
+.col-lg-4,
+.col-lg-3,
+.col-lg-2,
+.col-lg-1 {
+  padding: 0 15px;
+  box-sizing: border-box;
+  float: left; }
+
+.col-lg-12 {
+  width: 100%; }
+
+.col-lg-9 {
+  width: 75%; }
+
+.col-lg-8 {
+  width: 66.667%; }
+
+.col-lg-7 {
+  width: 58.3333333333333%; }
+
+.col-lg-6 {
+  width: 50%; }
+
+.col-lg-5 {
+  width: 41.6666666666667%; }
+
+.col-lg-4 {
+  width: 33.333%; }
+
+.col-lg-3 {
+  width: 25%; }
+
+.col-lg-2 {
+  width: 16.667%; }
+
+.col-lg-1 {
+  width: 8.333%; }
+
+#header {
+  width: 100%;
+  float: left;
+  background: #232B33;
+  padding: 20px 0px; }
+  #header ul {
+    padding: 20px 0px;
+    margin: 0px;
+    display: inline-block;
+    float: right; }
+    #header ul li {
+      list-style: none;
+      display: inline;
+      margin-right: 40px; }
+      #header ul li a {
+        text-decoration: none; }
+        #header ul li a:hover {
+          color: #48C1BB; }
+  #header h1 {
+    padding: 25px; }
+  #header p {
+    padding: 10px; }
+
+#footer {
+  width: 100%;
+  float: left;
+  background: #232B33;
+  padding: 60px 0px; }
+  #footer ul li {
+    list-style: none;
+    display: inline; }
+    #footer ul li a {
+      text-decoration: none; }
+  #footer .footer_links {
+    padding: 20px 0px;
+    margin: 0px;
+    display: inline-block;
+    float: right; }
+    #footer .footer_links li {
+      margin-right: 40px; }
+      #footer .footer_links li a {
+        font-size: 18px;
+        color: #48C1BB; }
+  #footer .footer_pages {
+    margin: 0px;
+    padding: 0px; }
+    #footer .footer_pages li {
+      width: 50%;
+      display: inline-block;
+      float: left;
+      padding: 10px 0px; }
+  #footer .contact {
+    text-align: right; }
+    #footer .contact .grey {
+      color: #9E9E9E;
+      font-size: 14px;
+      margin: 20px 0px 0px; }
+  #footer p {
+    clear: both;
+    float: right; }
+  #footer .my_wisdom {
+    width: 50%;
+    margin: 80px 0px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal; }
+  #footer form {
+    float: right;
+    clear: both;
+    display: block;
+    width: 70%;
+    margin: 15px 0px 50px; }
+    #footer form input {
+      border: 1px solid #FFF;
+      background: transparent;
+      color: #FFF;
+      padding: 10px 20px;
+      display: block;
+      float: left;
+      width: 70%;
+      box-sizing: border-box; }
+      #footer form input.submit {
+        color: #FFF;
+        text-align: center;
+        width: 30%;
+        border-left: 0px; }
+        #footer form input.submit:hover {
+          background: #ff; }
+
+.logo {
+  width: 194px; }
+
+p {
+  margin: 0px 0px 15px; }
+
+.top-bar {
+  background: #232B33;
+  width: 100%;
+  float: left;
+  padding: 50px 0px 100px; }
+  .top-bar p {
+    padding: 25px 0px; }
+
+.grey-row {
+  margin: 80px 0px;
+  float: left;
+  width: 100%;
+  position: relative; }
+  .grey-row .grey-bg {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    background-color: #F7F7F7;
+    z-index: -1;
+    left: 0px; }
+  .grey-row img {
+    margin: 30px 0px; }
+
+.center_vertically {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .center_vertically h2 {
+    margin: 0px 0px 50px;
+    padding: 0px 150px 0px 0px; }
+
+.button {
+  background: #48C1BB;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 15px 30px;
+  display: inline-block;
+  border: 1px solid #48C1BB; }
+  .button:hover {
+    background-color: transparent;
+    color: #48C1BB;
+    border: 1px solid #48C1BB; }
+
+#are_we_right_for_you {
+  background-image: url("../images/are-we-right-for-you.jpg");
+  background-size: cover;
+  width: 100%;
+  float: left;
+  padding: 170px 0px 80px; }
+  #are_we_right_for_you h2 {
+    color: #FFF;
+    margin: 0px 0px 20px; }
+  #are_we_right_for_you .button {
+    margin: 25px 0px 0px; }
+
+/*# sourceMappingURL=style.css.map */

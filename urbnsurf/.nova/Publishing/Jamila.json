@@ -1,0 +1,10 @@
+{
+  "identifier" : "A0A04B0A-895D-464A-B587-5B26C45B030E",
+  "ignoredFilePatterns" : [
+    "index.html"
+  ],
+  "localPath" : ".",
+  "remotePath" : "\/",
+  "server" : "Jamila",
+  "usesPublishing" : true
+}

@@ -1,0 +1,84 @@
+.logo {
+    width: 194px;
+}
+
+p {
+    margin: 0px 0px 15px;
+}
+
+.top-bar {
+    background: $DarkGrey;
+    width: 100%;
+    float: left;
+    padding: 50px 0px 100px;
+
+    p {
+        padding: 25px 0px;
+    }
+}
+
+.grey-row {
+    margin: 80px 0px;
+    float: left;
+    width: 100%;
+    position: relative;
+    .grey-bg{
+        position: absolute;
+        width: 70%;
+        height: 100%;
+        background-color: $LightGrey;
+        z-index: -1;
+        left: 0px;
+    }
+    
+    img {
+        margin: 30px 0px;
+    }
+}
+
+.center_vertically {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2 {
+        margin: 0px 0px 50px;
+        padding: 0px 150px 0px 0px;
+    }
+}
+
+.button{
+    background: $Aqua;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 15px 30px;
+    display: inline-block;
+    border: 1px solid $Aqua;
+    &:hover {
+        background-color: transparent;
+        color: $Aqua;
+        border: 1px solid $Aqua;
+    }
+
+}
+ 
+#are_we_right_for_you {
+    background-image: url("../images/are-we-right-for-you.jpg");
+    background-size: cover;
+    width: 100%;
+    float: left;
+    padding: 170px 0px 80px;
+    
+    h2 {
+        color: #FFF;
+        margin: 0px 0px 20px;
+    }
+    
+    .button {
+        margin: 25px 0px 0px;
+    }
+    
+}
+

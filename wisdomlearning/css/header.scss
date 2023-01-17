@@ -1,0 +1,37 @@
+#header  {
+    width: 100%;
+    float: left;
+    background: #232B33;
+    padding: 20px 0px;
+
+    ul {
+        padding: 20px 0px;
+        margin: 0px;
+        display: inline-block;
+        float: right;
+
+        li {
+            list-style: none;
+            display: inline;
+            margin-right: 40px;
+            a {
+                text-decoration: none;
+                &:hover {
+                    color: $Aqua;
+                }
+            }
+        }
+    }
+
+    h1 {
+        padding: 25px;
+    }
+
+    p {
+        padding: 10px;
+    }
+
+  
+}
+
+

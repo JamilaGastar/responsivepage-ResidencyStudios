@@ -216,10 +216,8 @@ p {
     padding: 0px 0px 30px; }
   .whats_new img {
     padding: 20px 0px; }
-  .whats_new p {
-    padding: 10px; }
-    .whats_new p a {
-      color: #6BBBBC;
-      text-decoration: underline; }
+  .whats_new p a {
+    color: #6BBBBC;
+    text-decoration: underline; }
 
 /*# sourceMappingURL=style.css.map */

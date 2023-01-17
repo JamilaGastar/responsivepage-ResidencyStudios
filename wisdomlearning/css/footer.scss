@@ -1,0 +1,98 @@
+#footer{
+    width: 100%;
+    float: left;
+    background: #232B33;
+    padding: 60px 0px;
+
+    ul {
+        
+        li {
+            list-style: none;
+            display: inline;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .footer_links{
+        padding: 20px 0px;
+        margin: 0px;
+        display: inline-block;
+        float: right;
+
+        li {
+            margin-right: 40px;
+            a{
+                font-size: 18px;
+                color: $Aqua;
+
+            }
+        }
+    }
+
+
+    .footer_pages{
+        margin: 0px;
+        padding: 0px;
+        li {
+            width: 50%;
+            display: inline-block;
+            float: left;
+            padding: 10px 0px
+        }
+    }
+
+    .contact {
+        text-align: right;
+
+        .grey {
+            color: #9E9E9E;
+            font-size: 14px;
+            margin: 20px 0px 0px; 
+        }
+    }
+    
+    
+    p {
+        clear: both;
+        float: right;
+    }
+    
+    .my_wisdom {
+        width: 50%;
+        margin: 80px 0px;
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+    }
+    
+    form {
+        float: right;
+        clear: both;
+        display: block;
+        width: 70%;
+        margin: 15px 0px 50px;
+        input {
+            border: 1px solid #FFF;
+            background: transparent;
+            color: #FFF;
+            padding: 10px 20px;
+            display: block;
+            float: left;
+            width: 70%;
+            box-sizing: border-box;
+            &.submit{
+                color: #FFF;
+                text-align: center;
+                width: 30%;
+                border-left: 0px;
+                &:hover{
+                    background: #ff;
+                }
+            }
+        
+        }
+    }
+
+}
